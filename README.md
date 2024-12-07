@@ -11,7 +11,7 @@ Fonctionnalités principales :
 
 Traitement des données avec Talend :
 
-Importation depuis des fichiers CSV, Excel ou API.
+Importation depuis des fichiers CSV.
 Transformation et nettoyage des données pour assurer leur qualité.
 Chargement des données transformées dans une base MySQL.
 Stockage structuré dans MySQL :
