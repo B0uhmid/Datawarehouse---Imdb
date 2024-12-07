@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_2ULnQLGCEe-dEOoVg3nc6w" name="imdb" id="_2T8WsLGCEe-dEOoVg3nc6w" dataPackage="_2UMOULGCEe-dEOoVg3nc6w" Server="Localhost 127.0.0.1" FilePath="C:/Users/msi/Desktop/Datawarehouse porject/imdb.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;'&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_2UMOULGCEe-dEOoVg3nc6w" name="default" dataManager="_2ULnQLGCEe-dEOoVg3nc6w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2UMOUbGCEe-dEOoVg3nc6w" id="_rm9PkLGCEe-dEOoVg3nc6w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOUrGCEe-dEOoVg3nc6w" label="Column0" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOU7GCEe-dEOoVg3nc6w" label="id" length="6" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOVLGCEe-dEOoVg3nc6w" label="imdb_id" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOVbGCEe-dEOoVg3nc6w" label="popularity" length="16" precision="15" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOVrGCEe-dEOoVg3nc6w" label="budget" length="11" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOV7GCEe-dEOoVg3nc6w" label="revenue" length="12" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOWLGCEe-dEOoVg3nc6w" label="original_title" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOWbGCEe-dEOoVg3nc6w" label="cast" length="84" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOWrGCEe-dEOoVg3nc6w" label="homepage" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOW7GCEe-dEOoVg3nc6w" label="director" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOXLGCEe-dEOoVg3nc6w" label="tagline" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOXbGCEe-dEOoVg3nc6w" label="keywords" length="89" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOXrGCEe-dEOoVg3nc6w" label="overview" length="741" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOX7GCEe-dEOoVg3nc6w" label="runtime" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOYLGCEe-dEOoVg3nc6w" label="genres" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOYbGCEe-dEOoVg3nc6w" label="production_companies" length="120" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOYrGCEe-dEOoVg3nc6w" label="release_date" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOY7GCEe-dEOoVg3nc6w" label="vote_count" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOZLGCEe-dEOoVg3nc6w" label="vote_average" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOZbGCEe-dEOoVg3nc6w" label="release_year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOZrGCEe-dEOoVg3nc6w" label="budget_adj" length="16" precision="8" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOZ7GCEe-dEOoVg3nc6w" label="revenue_adj" length="16" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOaLGCEe-dEOoVg3nc6w" label="profit" length="12" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2UMOabGCEe-dEOoVg3nc6w" label="popularity_level" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
