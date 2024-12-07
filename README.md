@@ -1,4 +1,4 @@
-# Datawarehouse---Imdb
+![Capture d'écran 2024-12-07 114924](https://github.com/user-attachments/assets/1a6ae444-d2f6-4d1a-81ed-b7198486c8f7)# Datawarehouse---Imdb
 Projet : Traitement et analyse de données avec Talend, MySQL et Power BI
 
 Description :
@@ -38,3 +38,18 @@ Ce projet est idéal pour :
 Les analystes de données.
 Les projets nécessitant une intégration et une visualisation de données.
 Toute personne souhaitant créer des tableaux de bord basés sur des données structurées.
+
+
+
+![Capture d'écran 2024-12-07 114924](https://github.com/user-attachments/assets/5cf54868-c3b1-42a5-bf03-5ef811bac61b)
+
+
+
+
+
+
+
+
+
+
+
